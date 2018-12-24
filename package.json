@@ -1,0 +1,43 @@
+{
+  "name": "taijun",
+  "version": "1.0.0",
+  "description": "TaiJun",
+  "main": "main.js",
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "fullpage.js": "^2.8.8",
+    "image-webpack-loader": "^4.3.1",
+    "jquery": "^2.2.0",
+    "jquery-mousewheel": "^3.1.13",
+    "jquery.cookie": "^1.4.1",
+    "node-sass": "^4.9.2",
+    "particles.js": "^2.0.0",
+    "sass-loader": "^7.0.3",
+    "slick-carousel": "^1.8.1",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-target-electron-renderer": "^0.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p --display-error-details --watch",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --content-base build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chichi77/TaiJun.git"
+  },
+  "author": "chi chi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chichi77/TaiJun/issues"
+  },
+  "homepage": "https://github.com/chichi77/TaiJun#readme"
+}
